@@ -1,0 +1,143 @@
+:root{
+    --nav-bar-color:#373A3C;
+    --color-fondo:#17A2B8;
+    --color-blanco:#fff;    
+}
+
+.navbar{
+    background-color: var(--nav-bar-color);
+}
+
+#hero-section{
+    background-image: url("../img/bg-hero.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;      
+    height: 608px;     
+}
+
+#container{
+    padding: 40px;    
+}
+
+#title-text{
+    color: var(--color-blanco);
+    font-size: 40px;
+    font-family: "Raleway";
+    font-weight: 800;        
+}
+
+#btntrabajo, #btntrabajo2{
+    color: var(--color-blanco);
+}
+
+.parrafo{
+    font-family: "Raleway";
+    color: var(--color-blanco);    
+    font-size: 16px;  
+}
+
+#acercaDe{
+    font-family: "Raleway";   
+}
+
+#tituloabout{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#icons{
+    font-size: 36px;
+}
+
+#iconos  h2{
+    font-weight: 800;
+    font-size: 20px;
+    color: #000;
+}
+
+#trabajos{
+    background-color: var(--color-fondo);
+}
+
+#tituloTrabajos{
+    font-family: "Raleway";
+    font-weight: bold;
+    color: var(--color-blanco);
+}
+
+.card > img{
+    width:auto;    
+}
+
+#vermas{
+    width: 99px;
+    color:#0F0F0F;
+}
+
+.contenido h2{
+    font-weight: 700;    
+}
+
+#contactame h2{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+footer{
+    background-color: #000;
+}
+
+footer p{
+    color: var(--color-blanco);
+    font-family: "Raleway";
+}
+
+#btnEnviar{
+    background-color: var(--color-fondo);
+    color: white;
+    width: 99px;
+    font-size: 16px;
+}
+
+@media (min-width: 1100px) { 
+
+    #hero-section{
+        background-position: center;
+    }
+    #title-text{
+        font-size: 70px;
+        width: 616px;
+        position: relative;
+        left: 40%; 
+    }
+
+    .parrafo{
+        width: 616px;
+        position: relative;
+        left: 30%;
+        top:-30px;
+    }
+
+    .botones{
+        margin-right: 130px;
+        position: relative;
+        top:-80px;
+    }
+
+    #tituloabout{
+        font-size: 50px;
+    }
+
+
+    
+    #contactame h2{
+        font-size: 50px;
+        
+    }
+
+    #form{
+        width:930px;
+        
+    }
+
+ }
