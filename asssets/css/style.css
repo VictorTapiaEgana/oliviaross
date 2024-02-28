@@ -104,25 +104,22 @@ footer p{
     #hero-section{
         background-position: center;
     }
-    #title-text{
+     #title-text{
         font-size: 70px;
-        width: 616px;
-        position: relative;
-        left: 40%; 
     }
 
-    .parrafo{
+    /* .parrafo{
         width: 616px;
         position: relative;
         left: 30%;
-        top:-30px;
-    }
-
+      top:-30px;
+    }  */
+/* 
     .botones{
         margin-right: 130px;
         position: relative;
         top:-80px;
-    }
+    }  */
 
     #tituloabout{
         font-size: 50px;
@@ -138,6 +135,16 @@ footer p{
     #form{
         width:930px;
         
+    }
+
+    #container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: end;
+        width: 800px;
+        padding: 0;        
     }
 
  }
